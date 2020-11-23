@@ -1,0 +1,113 @@
+/* Tonae Patterson (CIS238 Midterm Review) */
+
+/* Style specifies the container padding, width, margin, and border */
+#container {
+    padding: 0%;
+    width: 100%;
+    margin: auto;
+    border: 10px;
+}
+
+/* Style specifies the header image with - fit to screen */
+header img{
+    width: 100%;
+}
+
+/* Style specifies h1 element font-size and font-weight */
+h1 {
+    font-size: 1.8em;
+    font-weight: bold;
+
+}
+
+/* Style specifies h2 element font-size and font-weight */
+h2 {
+    font-size: 1.8em;
+    font-weight: bold;
+
+}
+
+/* Style for nav specifies text-align and text-decoration */
+nav {
+    text-align: left;
+    text-decoration: none;
+}
+
+/* Style for nav li specifies the display */
+nav li {
+    display: grid;
+}
+
+/* Style changes navigation link text color red removes the underline */
+nav li a {
+    color: blue;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+/* Style specifies to not display the desktop class */
+.desktop {
+    display: none;
+}
+
+/* Style for footer specifies clear, text align, and background color */
+footer {
+    clear: left;
+    text-align: center;
+    background-color: darkgray;
+}
+
+
+/* ----- Media query for desktop viewport targets screens a minimum width of 830px. ----- */
+@media only screen and (min-width: 830px) {
+
+/* Style specifies to display the desktop class */
+.desktop {
+    display: grid;
+}
+
+/* Style specifies the container padding, width, margin, and border */
+#container {
+    padding: 0%;
+    width: 80%;
+    margin: auto;
+    border: 10px;
+}
+
+/* Style for nav specifies text align and text-decoration */
+nav {
+    text-align: left;
+    text-decoration: none;
+}
+
+/* Style for nav li specifies the display and padding */
+nav li {
+    display: inline;
+    padding: 25px;
+}
+
+/* Style changes navigation link text color red removes the underline */
+nav li a {
+    color: red;
+    text-decoration: none;
+}
+ 
+/* Style for article specifies padding, float, margin, and width */
+article {
+    padding-left: 30px;
+    padding-bottom: 50px;
+    float: left;
+	margin-top: 1em;
+	margin-right: 3em;
+	width: 60%;
+
+}
+
+ /* Style for article specifies float, margin, width, and background-color */
+aside {
+    float: right;
+	margin-top: 1em;
+    width: 20%;
+    background-color: #FF8202;
+}
+}
