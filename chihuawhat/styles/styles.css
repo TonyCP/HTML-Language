@@ -76,19 +76,8 @@ nav li a {
 
 /* Style specifies font size, text align, margin top, and color */
 footer {
-    font-size: .70em;
-    text-align: center;
-    margin-top: 2em;
-    color: black;
+    height: 50px;
 }
-
-/* Style for anchor elements within the footer*/
-footer a {
-    color: black;
-    font-weight: bold;
-	text-decoration: none;
-}
-
 
 /* Style specifies border, background color, color, font family, weight, and size */
 .dropbtn {
@@ -168,6 +157,67 @@ h2 {
 /* Style specifies font style */
 h3{
     font-style: italic;
+}
+
+/* Style rule for input, select, and textarea form elements */
+input, select, textarea {
+    display: block;
+    margin-bottom: 1em;
+}
+
+/* Style for required input and text area */
+input:required,
+textarea:required {
+  border-color: red !important;
+}
+
+
+/* Style rule for label element */
+label {
+    display: block;
+}
+
+/* Style tule for form element */
+form {
+    background-color: #FFFFFF;
+    padding: 1em;
+    border: 0.2em solid #000000;
+    border-radius: 10px;
+}
+ 
+/*Style rule for paragraph with form element */
+form p {
+    color: #000000;
+}
+
+/* Style rule for unordered list within a form */
+form ul {
+    list-style-type: none;
+}
+
+/* Style rule for required warning */
+form p span {
+    float: right;
+}
+
+/* Style rule for chkbox class */
+.chkbox {
+    display: inline-block;
+}
+
+/* Style rule for contact div */
+#contact {
+   float: right;
+}
+
+/* Style rule for contact icon */
+#contact img {
+    padding-right: 30px;
+    width: 30px
+}
+
+#contact p {
+    margin: 10px;
 }
 
   
@@ -368,7 +418,30 @@ h3 {
 /* Style specifies clear */
 footer{
     clear: left;
-}  
+} 
+
+/* Style for footer specifies font size, text alignment, and top margin */
+footer {
+    overflow: hidden;
+}
+
+/* Style rule for label element */
+label {
+    float: left;
+    padding-right: 0.5em;
+    text-align: center;
+    width: 10em;
+}
+
+/* Style rule for btn class */
+.btn {
+    margin-left: 12em;
+}
+
+/* Style tule for form element */
+form {
+    font-size: large;
+}
 
 }
 
@@ -388,13 +461,6 @@ nav ul {
     padding-right: 0.50%;
 }
 
-/* Style for footer specifies font size, text alignment, and top margin */
-footer {
-    background-color: #254E58;
-    overflow: hidden;
-    font-size: .80em;
-}
-
 /* Style specifies hover background color */
 .dropdown-content a:hover {background-color: #965602;}
 
@@ -402,6 +468,16 @@ footer {
 h2 {
     font-size: 3vw;
 }
+
+/* Style tule for form element */
+form:hover {
+    background-color: #965602;
 }
 
+ /* Style rules for psuedo-classes */
+nav li a:hover {
+    color: #9D9D93;
+    font-style: italic;
+}
 
+}
